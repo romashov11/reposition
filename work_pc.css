@@ -1,0 +1,198 @@
+.block1 {
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial;
+    
+    margin: 10px;
+
+}
+body{
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.game_pc{
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    font-size:small;
+    font-family: Arial;
+}
+
+.work_pc{
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    font-size:small;
+    font-family: Arial; 
+}
+.custom_pc{
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    font-size:small;
+    font-family: Arial; 
+}
+.services{
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    font-size:small;
+    font-family: Arial; 
+}
+.account{
+    margin: 15px;
+    display: inline-block;
+    text-align: center;
+    
+    font-size:small;
+    font-family: Arial; 
+    
+}
+header{
+    text-align: left;
+    background-color: rgb(33, 33, 33);
+    position: fixed;
+    width: 100%;
+
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    transition: 0.5s;
+    color: rgb(213, 255, 73);
+}
+
+
+
+
+
+
+.xgame_min{
+    display: inline-block;
+    margin-top: 60px;
+    background-color: rgb(33, 33, 33);
+    height: 800px;
+    width: 400px;
+    margin-left: 65px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top:90px;
+}
+.xgame_medium{
+    display: inline-block;
+    margin-top: 60px;
+    background-color: rgb(33, 33, 33);
+    height: 800px;
+    width: 400px;
+    margin-left: 65px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top:90px;
+}
+.xgame_max{
+    display: inline-block;
+    margin-top: 60px;
+    background-color: rgb(33, 33, 33);
+    height: 800px;
+    width: 400px;
+    margin-left: 65px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top:90px;
+}
+
+.photo_for_xgame_min{
+    display: inline-block;
+    background-image: url(work.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    margin-top: 65px;
+}
+
+.photo_for_xgame_medium{
+    display: inline-block;
+    background-image: url(work.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    margin-top: 65px;
+}
+
+.photo_for_xgame_max{
+    display: inline-block;
+    background-image: url(work.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    margin-top: 65px;
+}
+
+
+
+.xgame_min_text{
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: Arial;
+    margin-left: 20px ; 
+}
+
+.xgame_medium_text{
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: Arial;
+    margin-left: 20px ; 
+}
+
+.xgame_max_text{
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: Arial;
+    margin-left: 20px ; 
+}
+
+
+
+
+
+.text_name_com{
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: Arial;
+    margin-left: 20px ;
+    color: rgba(255, 255, 255, 0.6); 
+    
+}
+.text_{
+    display: inline-block;
+
+    font-size: 15px;
+    margin: 0px;
+    font-family: Arial;
+    
+}
+.price{
+    display: inline-block;
+    margin-left: 250px;
+    font-size: 20px;
+    color: rgb(213, 255, 73);
+    font-family: Arial;
+}
