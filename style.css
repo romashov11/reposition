@@ -1,0 +1,355 @@
+.block1 {
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial;
+    margin: 10px;
+    
+    
+}
+body{
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.game_pc{
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    font-size:small;
+    font-family: Arial;
+}
+
+.work_pc{
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    font-size:small;
+    font-family: Arial; 
+}
+.custom_pc{
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    font-size:small;
+    font-family: Arial; 
+}
+.services{
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    font-size:small;
+    font-family: Arial; 
+}
+.account{
+    margin: 15px;
+    display: inline-block;
+    text-align: center;
+    
+    font-size:small;
+    font-family: Arial; 
+    
+}
+header{
+    text-align: left;
+    background-color: rgb(33, 33, 33);
+    position: fixed;
+    width: 100%;
+    
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    transition: 0.5s;
+    color: rgb(213, 255, 73);
+}
+.header_photo{
+    display: block;
+    background-image: url(computer.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.work_pc_info{
+    display: inline-block;
+    margin-top: 60px;
+    background-color: rgb(33, 33, 33);
+    height: 650px;
+    width: 400px;
+    margin-left: 65px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.work_pc_info:hover{
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px  rgb(213, 255, 73);
+}
+
+
+.game_pc_info{
+    display: inline-block;
+    margin-top: 60px;
+    background-color: rgb(33, 33, 33);
+    height: 650px;
+    width: 400px;
+    margin-left: 65px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.game_pc_info:hover{
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px  rgb(213, 255, 73);
+}
+
+
+.custom_pc_info{
+    display: inline-block;
+    margin-top: 60px;
+    background-color: rgb(33, 33, 33);
+    height: 650px;
+    width: 400px;
+    margin-left: 65px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.custom_pc_info:hover{
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px  rgb(213, 255, 73);
+}
+
+
+
+
+
+.photo_for_game_pc{
+    display: inline-block;
+    background-image: url(aero.png);
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    margin-top: 65px;
+}
+.photo_for_custom_pc{
+    display: inline-block;
+    background-image: url(IMG_4992.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    margin-top: 65px;
+}
+.photo_for_work_pc{
+    display: inline-block;
+    background-image: url(nzxt-Hue-2.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    margin-top: 65px;
+}
+
+/*текст для картинок*/
+.custom_pc_text{
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: Arial;
+    margin-left: 20px ; 
+}
+
+.game_pc_text{
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: Arial;
+    margin-left: 20px ;
+
+}
+
+.work_pc_text{
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: Arial;
+    margin-left: 20px ; 
+}
+
+
+.phrase{
+    display: block;
+    text-align: center;
+    font-family: Arial;
+    font-size: x-large;
+    margin: 40px 0px;
+}
+.gpu_game_pc{
+    display: block;
+    background-image: url(gpu.png);
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+.cpu_game_pc{
+    display: block;
+    background-image: url(cpu-tower.png);
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    margin-bottom: 5px;
+}    
+
+.text_gpu{
+    display: inline-block;
+    margin-left: 5px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+
+footer{
+    display: block;
+    background-color: rgb(12, 12, 12);
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+}
+
+.container{
+    
+    margin: 0px 15px;
+    display: flex;
+    
+}
+
+
+.services_main{
+    display: block;
+    text-align: center;
+    font-family: Arial;
+    font-size: xX-large;
+    margin: 40px 0px;
+}
+
+/* для услуг */
+.clean{
+    display: inline-block;
+    margin-top: 60px;
+    background-color: rgb(33, 33, 33);
+    height: 650px;
+    width: 400px;
+    margin-left: 65px;
+    border-radius: 20px;
+    text-align: center;
+}
+.photo_for_clean{
+    display: inline-block;
+    background-image: url(clean-pc-100842068-large.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    margin-top: 65px;
+}
+
+.upgarde{
+    display: inline-block;
+    margin-top: 60px;
+    background-color: rgb(33, 33, 33);
+    height: 650px;
+    width: 400px;
+    margin-left: 65px;
+    border-radius: 20px;
+    text-align: center;
+}
+.photo_for_upgrade{
+    display: inline-block;
+    background-image: url(maxresdefault.jpg);
+    background-size: cover;
+    background-position: -30px;
+    width: 250px;
+    height: 200px;
+    margin-top: 65px;
+}
+
+.TO{
+    display: inline-block;
+    margin-top: 60px;
+    background-color: rgb(33, 33, 33);
+    height: 650px;
+    width: 400px;
+    margin-left: 65px;
+    border-radius: 20px;
+    text-align: center;
+}
+.photo_for_TO{
+    display: inline-block;
+    background-image: url(Master-proizvodit-diagnostiku-PK.jpg);
+    background-size: cover;
+    background-position: -30px;
+    width: 250px;
+    height: 200px;
+    margin-top: 65px;
+}
+.TO_text{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: Arial;    
+}
+.clean_text{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: Arial;    
+}
+.upgrade_text{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: Arial;    
+}
+main a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.clean:hover{
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px  rgb(213, 255, 73);
+}
+.upgarde:hover{
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px  rgb(213, 255, 73);
+}
+.TO:hover{
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px  rgb(213, 255, 73);
+}
